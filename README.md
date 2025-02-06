@@ -41,11 +41,11 @@ This project is perfect for learning and practicing **front-end development** wh
 ### ➖⃣ Installation
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/mihirdas77/cart-page-project.git
+   git clone https://github.com/mihirdas77/Shopping-Cart-Marmeto.git
    ```
 2. Navigate to the project folder:  
    ```bash
-   cd cart-page-project
+   cd Shopping-Cart-Marmeto
    ```
 
 ### ➖⃣ Usage
