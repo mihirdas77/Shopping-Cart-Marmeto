@@ -95,7 +95,7 @@ The layout adapts seamlessly across devices using CSS media queries. Feel free t
 ## 🧑‍💻 Author
 👨‍💻 **Mihir Das**  
 Bachelor of Science in Information Technology | Passionate Full Stack Developer  
-[GitHub](https://github.com/mihirdas77) | [Portfolio](https://portfoliomihir.vercel.app)  
+[GitHub](https://github.com/mihirdas77) | [Portfolio](https://portfoliomihir.vercel.app) | [Linkedin](https://www.linkedin.com/in/mihir-das/)  
 
 ---
 
