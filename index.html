@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Marmeto</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <img src="https://s3-alpha-sig.figma.com/img/2727/769b/a74736d502746301ed573ed8940fc322?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=OJvEBQx8ME39MkTmQliRdw~HZqd~-x6T94e~femNDpx9EOfjyOH8FMWzvDtARS8YxA2-9A4Lg54ygIdByoRV41YiCP9vqZvjIrJG3ytY1HT~w~ji3f1-Zc2Hl8WZ4bsdy6ZELlVNHMj1--ZC1BgYQQ~pWYXVWDC3i1o10JJkT-taH3xx3fONGcJq3eGIQdg3NRCSCf84MyJvuWunVtVc0-LPauDYRsFg99-qII9yvduvMOP9av0k1s-Em9IB3lUmAsEgqytHLL9oReUS~rxD~4nB0zVt1rN1rjuFI0FOC2YtegMkHgGItaehqfyb3cE~451Aff9OS-QpCfHVvqXexA__" alt="Logo Icon" style="height: 2em; width: auto; vertical-align: middle; margin-right: -10px; margin-bottom: 3px;">
+            Marmeto
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <span>&#128269;</span>
+            <span>&#9825;</span>
+            <span>&#128722;</span>
+        </div>
+    </header>
+
+    <section class="cart-section">
+        <div class="cart-header">
+            <div class="header-image-container">
+                <img src="https://cdn11.bigcommerce.com/s-hi9nbuups9/images/stencil/1920w/uploaded_images/header-image-7-desks-wfh.jpg?t=1706690316" alt="header">
+                <div class="header-text">
+                    <img src="https://s3-alpha-sig.figma.com/img/2727/769b/a74736d502746301ed573ed8940fc322?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=OJvEBQx8ME39MkTmQliRdw~HZqd~-x6T94e~femNDpx9EOfjyOH8FMWzvDtARS8YxA2-9A4Lg54ygIdByoRV41YiCP9vqZvjIrJG3ytY1HT~w~ji3f1-Zc2Hl8WZ4bsdy6ZELlVNHMj1--ZC1BgYQQ~pWYXVWDC3i1o10JJkT-taH3xx3fONGcJq3eGIQdg3NRCSCf84MyJvuWunVtVc0-LPauDYRsFg99-qII9yvduvMOP9av0k1s-Em9IB3lUmAsEgqytHLL9oReUS~rxD~4nB0zVt1rN1rjuFI0FOC2YtegMkHgGItaehqfyb3cE~451Aff9OS-QpCfHVvqXexA__" alt="logo">
+                    <h2>Cart</h2>
+                    <p>Home > Cart</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cart-container">
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+                </tbody>
+            </table>
+
+            <div class="cart-totals">
+                <h3>Cart Totals</h3>
+                <p><b>Subtotal:</b> <span id="subtotal">Rs. 0.00</span></p><br>
+                <p><b>Total:</b> <span id="total">Rs. 0.00</span></p><br>
+                <button class="checkout-btn">Check Out</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="features">
+            <div><span>🏆</span><b> High Quality</b><br>crafted from top materials</div>
+            <div><span>✅</span><b> Warranty Protection</b><br>Over 2 years</div>
+            <div><span>🚚</span><b> Free Shipping</b><br>Order over 150$</div>
+            <div><span>📞</span><b> 24/7 Support</b><br>Dedicated support</div>
+        </div>
+    </footer>
+
+</body>
+</html>
